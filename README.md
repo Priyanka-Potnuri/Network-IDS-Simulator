@@ -1,4 +1,4 @@
-# Real-Time Network Intrusion Detection System (IDS) Telemetry Dashboard  (  AI - Based Flask IDS Simulator Dashboard )
+# Real-Time Network Intrusion Detection System (IDS) Telemetry Dashboard  (AI - Based Flask IDS Simulator Dashboard)
 
 ##  Project Definition: What is this project and what does it do?
 This application is a dynamic, web-based network anomaly tracking dashboard built using the **Flask micro-framework**. It simulates an enterprise Security Operations Center (SOC) dashboard environment, fetching incoming connection logs, calculating Machine Learning performance matrices, and rendering live graphical distributions.
