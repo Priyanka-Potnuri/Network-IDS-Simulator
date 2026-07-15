@@ -1,15 +1,40 @@
-# Real-Time Network Intrusion Detection System (IDS) Telemetry Dashboard  (AI - Based Flask IDS Simulator Dashboard)
+# Flask-Based Security Operations Center (SOC) Dashboard Simulator
 
-##  Project Definition: What is this project and what does it do?
-This application is a dynamic, web-based network anomaly tracking dashboard built using the **Flask micro-framework**. It simulates an enterprise Security Operations Center (SOC) dashboard environment, fetching incoming connection logs, calculating Machine Learning performance matrices, and rendering live graphical distributions.
+## Project Definition: What is this project and what does it do?
 
-### Why is this used? / How does it help?
-1. **Security Operations Center (SOC) Simulation:** It transforms hidden text terminal log buffers into visual analytics dashboards, helping security operators track infrastructure attack volumes at a glance.
-2. **Model Performance Evaluation Transparency:** Instead of just outputting accuracy logs in a script, it renders explicit data validation variables including **Precision, Recall, F1-Score, and a Confusion Matrix** derived via `scikit-learn` libraries.
-3. **Automated Vector Categorization:** The background scripts parse randomized incoming system inputs into structural categorized attack layers (DDoS, SQL Injection, Port Scanning, Malware) for real-time risk triage.
+The Flask-Based Security Operations Center (SOC) Dashboard Simulator is a web-based cybersecurity monitoring application developed using Python and the Flask framework. It simulates a Security Operations Center (SOC) environment by generating synthetic network intrusion events and presenting them through an interactive dashboard. The application visualizes simulated attack logs, security metrics, and attack distributions using dynamic charts, providing an overview of how security analysts monitor and interpret security events.
 
-### Core Functional Workflow / Architecture
-*   **Log Engineering Pipeline:** Generates simulated real-time infrastructure event tracking vectors mapping random network endpoint IP spaces.
-*   **Dynamic Data Visualizations:** Implements `matplotlib` inside data buffers (`io.BytesIO`) to directly render vector charts, converting binary graph streams into standard **base64-encoded strings** embedded on HTML layers dynamically.
-*   **Validation Metrics:** Executes `sklearn.metrics` routines to output production-standard classification evaluation matrix strings on runtime dashboard routes.
+---
 
+## Why is this used? / How does it help?
+
+### Security Operations Center (SOC) Simulation
+The application demonstrates how a SOC dashboard can present network security events in a structured and visual format, allowing users to understand how security incidents are monitored and analyzed.
+
+### Security Event Visualization
+Instead of displaying raw console output, the dashboard converts simulated intrusion events into interactive visualizations, making attack patterns and distributions easier to interpret.
+
+### Security Metrics Demonstration
+The dashboard displays commonly used machine learning evaluation metrics such as Accuracy, Precision, Recall, F1-Score, Classification Report, and Confusion Matrix to demonstrate how intrusion detection model performance can be represented in security monitoring systems.
+
+### Educational Cybersecurity Dashboard
+The project serves as a learning platform for understanding SOC dashboards, cybersecurity monitoring concepts, Flask web development, and security data visualization.
+
+---
+
+## Core Functional Workflow / Architecture
+
+### Simulated Event Generation
+Generates simulated network intrusion events with randomized timestamps, source IP addresses, and predefined attack categories including DDoS, SQL Injection, Port Scanning, and Malware.
+
+### Dashboard Processing Layer
+Processes the generated security events and dynamically renders them within a Flask-based web application.
+
+### Data Visualization Engine
+Uses Matplotlib to generate attack distribution charts, which are converted into Base64-encoded images and embedded directly into the web dashboard for real-time visualization.
+
+### Security Metrics Module
+Utilizes scikit-learn evaluation utilities to display classification reports and confusion matrices, illustrating how detection performance metrics are commonly presented in cybersecurity dashboards.
+
+### User Interface
+Presents simulated attack logs, graphical attack distributions, and security evaluation metrics through a centralized web dashboard designed to resemble a simplified Security Operations Center monitoring interface.
